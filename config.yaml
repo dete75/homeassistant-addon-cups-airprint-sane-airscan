@@ -12,6 +12,9 @@ arch:
   - i386
 usb: true
 init: false
+host_network: true
+privileged: true
+protected: false
 homeassistant_api: true
 host_network: true
 panel_icon: mdi:printer
