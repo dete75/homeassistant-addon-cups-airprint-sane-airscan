@@ -1,5 +1,12 @@
 {
-    "name": "Network Print & Scan Server Repository",
-    "url": "https://github.com/vtechs-ja/ha-cups-sane-addon",
-    "maintainer": "Vortex Technologies"
+  "name": "Network Print & Scan Server Repository (dete75)",
+  "url": "https://github.com/dete75/homeassistant-addon-cups-airprint-sane-airscan",
+  "maintainer": "dete75",
+  "addons": {
+    "network-print-scan-hub-dete75": {
+      "name": "Network Print & Scan Server (dete75)",
+      "repository": "dete75/homeassistant-addon-cups-airprint-sane-airscan",
+      "slug": "network-print-scan-hub-dete75"
+    }
+  }
 }
