@@ -13,8 +13,14 @@ arch:
 usb: true
 init: false
 host_network: true
-privileged: 
-  - ALL
+privileged:
+  - SYS_ADMIN
+  - DAC_READ_SEARCH
+  - NET_ADMIN
+  - NET_RAW
+  - SYS_RAWIO
+  - SYS_PTRACE
+  - SYS_RESOURCE
 protected: false
 homeassistant_api: true
 panel_icon: mdi:printer
