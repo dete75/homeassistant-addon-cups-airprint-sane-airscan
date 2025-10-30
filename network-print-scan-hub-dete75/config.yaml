@@ -1,5 +1,5 @@
 name: Network Print & Scan Server (dete75)
-version: "1.4.17-dt1"
+version: "1.4.17"
 image: ghcr.io/vtechs-ja/ha-cups-sane-addon
 slug: network-print-scan-hub-dete75
 description: Leverage your Home Assistant host server to network-enable USB printers and scanners. Provides CUPS printing, SANE scanning, and web interface.
