@@ -13,7 +13,8 @@ arch:
 usb: true
 init: false
 host_network: true
-privileged: true
+privileged: 
+  - ALL
 protected: false
 homeassistant_api: true
 panel_icon: mdi:printer
